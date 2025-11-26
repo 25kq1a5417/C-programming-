@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{
+int a,b;
+clrscr();
+printf ("Enter a,b value ");
+scanf("%d%d",&a,&b);
+if(a>b)
+{
+printf ("a is biggest number ");
+}
+else 
+{
+printf("b is biggest number ");
+}
+getch();
+}
