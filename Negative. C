@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{
+int n;
+clrscr();
+printf("Enter n value ");
+scanf("%d",&n);
+if(n<0)
+{
+printf("the given number is negative");
+}
+getch();
+}
